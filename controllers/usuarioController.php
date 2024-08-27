@@ -24,7 +24,7 @@ class usuarioController{
         if(isset($_POST)){
             $usuario = new Usuario();
             $usuario->setNombre($_POST['nombre']);
-            $usuario->setApellidos($_POST['Apellido']);
+            $usuario->setApellidos($_POST['apellido']);
             $usuario->setEmail($_POST['email']);
             $usuario->setPassword($_POST['password']);
 
@@ -41,11 +41,6 @@ class usuarioController{
 
         }
 
-
     }
-
-
-
-
 
 }
